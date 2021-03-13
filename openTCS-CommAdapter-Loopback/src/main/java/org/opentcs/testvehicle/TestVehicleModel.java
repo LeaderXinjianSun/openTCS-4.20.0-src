@@ -5,7 +5,10 @@ import org.opentcs.drivers.vehicle.VehicleProcessModel;
 
 import javax.annotation.Nonnull;
 
-public class TestVehicleModel extends VehicleProcessModel {
+public class TestVehicleModel extends VehicleProcessModel
+{
+
+
     /**
      * Creates a new instance.
      *

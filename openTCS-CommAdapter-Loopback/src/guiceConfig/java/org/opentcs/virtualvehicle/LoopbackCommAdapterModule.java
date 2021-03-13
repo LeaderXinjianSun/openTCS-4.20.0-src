@@ -52,3 +52,4 @@ public class LoopbackCommAdapterModule
   }
 
 }
+//org.opentcs.virtualvehicle.LoopbackCommAdapterModule

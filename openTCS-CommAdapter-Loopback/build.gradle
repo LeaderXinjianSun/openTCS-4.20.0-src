@@ -9,6 +9,7 @@ apply plugin: 'org.kordamp.gradle.stats'
 dependencies {
   compile project(':openTCS-API-Injection')
   compile project(':openTCS-Common')
+  implementation 'com.google.code.gson:gson:2.8.6'
 }
 
 task release {

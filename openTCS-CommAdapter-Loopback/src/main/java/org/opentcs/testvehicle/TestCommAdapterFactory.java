@@ -24,7 +24,7 @@ public class TestCommAdapterFactory implements VehicleCommAdapterFactory {
     @Deprecated
     public String getAdapterDescription() {
         //这是Kernel中显示的驱动名称,中文会乱码，如果要使用中文，请使用配置文件
-        return "MyTestAdapter";
+        return "TestAdapter";
         //return ResourceBundle.getBundle("org/opentcs/virtualvehicle/Bundle").getString("AdapterTestFactoryDescription");
     }
 
